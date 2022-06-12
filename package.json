@@ -1,0 +1,33 @@
+{
+  "name": "webportfolio",
+  "version": "1.0.0",
+  "description": "a website showing some web development and ux design projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Idoko Nduka",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "nodemon": "^2.0.16"
+  }
+}
