@@ -4,7 +4,10 @@
   "description": "a website showing some web development and ux design projects",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
