@@ -11,6 +11,57 @@
     font-family: Arial, Helvetica, sans-serif;
   }
  main{
- 	min-height: 80vh;
+ 	min-height: 70vh;
  	/* background: red; */
  }
+
+ /* main section */
+
+main div h1 strong {
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  clear: both;
+
+}
+main .content {
+  height: 80vh;
+}
+
+main .landing {
+  background: url("/images/cover.jpg") no-repeat fixed;
+  height: 80vh;
+  background-size: cover;
+}
+
+main .bg-light {
+  height: 20vh;
+  background-color: rgb(88, 130, 143) !important;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+main a{
+text-decoration: none;
+}
+
+main .bg-light:hover{
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  main div h1 strong {
+    font-size: 3.5rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  main .bg-light {
+    height: 30vh;
+    font-size: 1.5rem;
+  }
+
+  div .about {
+    height: 80vh;
+  }
+}
