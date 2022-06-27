@@ -18,14 +18,14 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 //database setup
-// mongoose.connect(process.env.MONGO_URI, {
-//   useUnifiedTopology: true,
-//   useNewUrlparser: true,
-// });
-mongoose.connect("mongodb://localhost/portfolio", {
+mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
   useNewUrlparser: true,
 });
+// mongoose.connect("mongodb://localhost/portfolio", {
+//   useUnifiedTopology: true,
+//   useNewUrlparser: true,
+// });
 
 const db = mongoose.connection;
 db.on("error", () =>
