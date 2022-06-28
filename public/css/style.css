@@ -34,6 +34,9 @@ main .landing {
   height: 80vh;
   background-size: cover;
 }
+main .landing h2 strong{
+  
+}
 
 main .bg-light {
   height: 20vh;
