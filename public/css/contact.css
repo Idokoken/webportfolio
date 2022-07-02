@@ -1,0 +1,47 @@
+.contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+  }
+  .contact section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  .contact section h3{
+    margin-right: 10px;
+    min-width: 100px;
+  }
+  .contact .address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .contact p{
+    margin-left: 10px;
+  }
+  .contact input, .contact textarea{
+    border: 2px solid black;
+  }
+  .contact .rule {
+    border: 4px solid black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .contact span:focus{
+   font-weight: bold;
+  }
+
+  @media only screen and (min-width: 768px) { 
+    .contact .address {
+      flex-direction: row;
+      
+    }
+    .contact section {
+      margin-left: 30px;
+    }
+  }

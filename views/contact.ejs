@@ -1,23 +1,51 @@
-<div class="contact container mt-5 mb-3 col-md-6">
-  <form method="post" action="/contact">
-    <div class="mb-3">
-      <label class="form-label">Name</label>
-      <input type="text" class="form-control" name="name" />
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Email address</label>
-      <input type="email" class="form-control" name="email" />
-    </div>
-    <div class="mb-3">
-      <label class="form-label">Description</label>
-      <textarea
-        class="form-control"
-        name="description"
-        cols="20"
-        rows="5"
-      ></textarea>
-    </div>
+<div class="contact container-fluid">
+  <div class="address">
+    <section>
+      <h3>Address</h3>
+      <span><img src="/images/address.png" alt="address" /></span>
+      <p>Kurudu, Federal Capital Territory Abuja, Nigeria</p>
+    </section>
+  </div>
+  <hr class="rule" />
+  <div class="address">
+    <section>
+      <h3>Phone</h3>
+      <span
+        ><a href="tel:+2347060598574"
+          ><img src="/images/call.png" alt="" height="50" width="50" /></a
+      ></span>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <span class="me-3"
+        ><a href="mailto:chisomidoko05@gmail.com" target="_blank"
+          ><img src="/images/email.png" alt="email" height="50" width="50" /></a
+      ></span>
+    </section>
+  </div>
+  <hr class="rule" />
+  <div class="mt-5 mb-3 offset-md-2 col-md-6">
+    <h4 class="mb-4">Please send me your enquiries</h4>
+    <form method="post" action="/contact">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email address</label>
+        <input type="email" class="form-control" name="email" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea
+          class="form-control"
+          name="description"
+          cols="20"
+          rows="5"
+        ></textarea>
+      </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </div>
